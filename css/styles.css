@@ -1,8 +1,23 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --modal-overlay: rgba(46, 47, 66, 0.4);
+  --hero-background: rgba(46, 47, 66, 0.7);
+  --white-background: #ffffff;
+  --modal-background: #fcfcfc;
+}
+
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   position: relative;
-  background: #ffffff;
-  color: #434455;
+  background: var(--white-background);
+  color: var(--text);
 }
 .body-main-page {
   width: 1440px;
@@ -25,8 +40,8 @@ body {
   height: 72px;
   left: 0px;
   top: 0px;
-  background: #ffffff;
-  border-bottom: 1px solid #e7e9fc;
+  background: var(--white-background);
+  border-bottom: 1px solid var(--accent);
 }
 .header-logo {
   display: flex;
@@ -50,7 +65,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--primary-brand);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -66,7 +81,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--dark);
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -92,7 +107,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -105,7 +120,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark);
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -118,7 +133,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark);
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -134,7 +149,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text);
 }
 .t-phone {
   position: absolute;
@@ -147,7 +162,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text);
 }
 
 /* HERO IMAGE */
@@ -157,7 +172,7 @@ body {
   height: 600px;
   left: 0px;
   top: 72px;
-  background: #2e2f42;
+  background: var(--dark);
 }
 .hero-header {
   position: absolute;
@@ -173,7 +188,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 
-  color: #ffffff;
+  color: var(--white-background);
 }
 .hero-button {
   display: flex;
@@ -188,7 +203,7 @@ body {
   left: 636px;
   top: 428px;
 
-  background: #4d5ae5;
+  background: var(--primary-brand);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -222,7 +237,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -235,7 +250,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text);
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -298,7 +313,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--dark);
 }
 .images {
 }
@@ -342,7 +357,7 @@ body {
   width: 360px;
   height: 300px;
 
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--accent);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -368,7 +383,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--dark);
 }
 .team-cards {
 }
@@ -384,7 +399,7 @@ body {
   height: 380px;
   left: 156px;
   top: 1780px;
-  background: #ffffff;
+  background: var(--white-background);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
@@ -401,7 +416,7 @@ body {
   height: 380px;
   left: 444px;
   top: 1780px;
-  background: #ffffff;
+  background: var(--white-background);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
@@ -418,7 +433,7 @@ body {
   height: 380px;
   left: 732px;
   top: 1780px;
-  background: #ffffff;
+  background: var(--white-background);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
@@ -435,7 +450,7 @@ body {
   height: 380px;
   left: 1020px;
   top: 1780px;
-  background: #ffffff;
+  background: var(--white-background);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
@@ -470,7 +485,7 @@ body {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -484,7 +499,7 @@ body {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text);
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -497,7 +512,7 @@ body {
   left: 0px;
   top: 2280px;
 
-  background: #2e2f42;
+  background: var(--dark);
 }
 .foo-text {
   position: absolute;
@@ -532,7 +547,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--light);
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -549,5 +564,5 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--light);
 }
