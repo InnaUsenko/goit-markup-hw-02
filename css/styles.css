@@ -44,48 +44,31 @@ body {
   border-bottom: 1px solid var(--accent);
 }
 .header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand);
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0px;
+
   position: absolute;
   width: 115px;
   height: 24px;
   left: 156px;
   top: 24px;
 }
-.blue-word {
-  width: 44px;
-  height: 21px;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--primary-brand);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+.link {
+  text-decoration: none;
 }
 .black-word {
-  width: 71px;
-  height: 21px;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--dark);
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
+
 .menu-nav {
   display: flex;
   flex-direction: row;
