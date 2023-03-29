@@ -27,7 +27,7 @@ body {
   width: 1440px;
   height: 2076px;
 }
-.style-none {
+.list {
   list-style-type: none;
 }
 
@@ -43,6 +43,7 @@ body {
   background: var(--white-background);
   border-bottom: 1px solid var(--accent);
 }
+
 .header-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -82,45 +83,21 @@ body {
   left: 347px;
   top: 24px;
 }
-.nav-studio {
-  width: 48px;
-  height: 24px;
-  font-style: normal;
+.nav-links {
+  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--dark);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
-.nav-portfolio {
-  width: 66px;
-  height: 24px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: var(--dark);
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+.nav-links:hover {
+  color: var(--pressed-state);
 }
-.nav-contacts {
-  width: 67px;
-  height: 24px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: var(--dark);
-  flex: none;
-  order: 2;
-  flex-grow: 0;
+.nav-links:focus {
+  color: var(--pressed-state);
 }
+
 .t-mail {
   position: absolute;
   width: 153px;
