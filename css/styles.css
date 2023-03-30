@@ -98,18 +98,21 @@ body {
   color: var(--pressed-state);
 }
 
+.our-address {
+  font-style: normal;
+}
+.contact-links {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
 .t-mail {
   position: absolute;
   width: 153px;
   height: 24px;
   left: 940px;
   top: 24px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: var(--text);
 }
 .t-phone {
   position: absolute;
@@ -117,12 +120,6 @@ body {
   height: 24px;
   left: 1133px;
   top: 24px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: var(--text);
 }
 
 /* HERO IMAGE */
