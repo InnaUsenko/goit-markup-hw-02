@@ -107,6 +107,12 @@ body {
   letter-spacing: 0.02em;
   color: var(--text);
 }
+.contact-links:hover {
+  color: var(--pressed-state);
+}
+.contact-links:focus {
+  color: var(--pressed-state);
+}
 .t-mail {
   position: absolute;
   width: 153px;
