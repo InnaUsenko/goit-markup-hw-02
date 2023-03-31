@@ -15,7 +15,6 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  position: relative;
   background: var(--white-background);
   color: var(--text);
 }
@@ -35,7 +34,6 @@ body {
 
 .top-line {
   box-sizing: border-box;
-  position: absolute;
   width: 1440px;
   height: 72px;
   left: 0px;
@@ -56,12 +54,6 @@ body {
   flex-direction: row;
   align-items: center;
   padding: 0px;
-
-  position: absolute;
-  width: 115px;
-  height: 24px;
-  left: 156px;
-  top: 24px;
 }
 .link {
   text-decoration: none;
@@ -77,11 +69,6 @@ body {
   padding: 0px;
   margin: 0px;
   gap: 40px;
-  position: absolute;
-  width: 261px;
-  height: 24px;
-  left: 347px;
-  top: 24px;
 }
 .nav-links {
   text-decoration: none;
@@ -114,35 +101,15 @@ body {
   color: var(--pressed-state);
 }
 .t-mail {
-  position: absolute;
-  width: 153px;
-  height: 24px;
-  left: 940px;
-  top: 24px;
 }
 .t-phone {
-  position: absolute;
-  width: 151px;
-  height: 24px;
-  left: 1133px;
-  top: 24px;
 }
 
 /* HERO IMAGE */
 .hero-image {
-  position: absolute;
-  width: 1440px;
-  height: 600px;
-  left: 0px;
-  top: 72px;
   background: var(--dark);
 }
 .hero-header {
-  position: absolute;
-  width: 496px;
-  height: 120px;
-  left: 472px;
-  top: 260px;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -169,12 +136,6 @@ body {
   padding: 16px 30px;
   gap: 10px;
 
-  position: absolute;
-  width: 169px;
-  height: 56px;
-  left: 636px;
-  top: 428px;
-
   background: var(--primary-brand);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -188,11 +149,6 @@ body {
 
 /* SECTION 1 */
 .section-one {
-  position: absolute;
-  width: 1128px;
-  height: 104px;
-  left: 156px;
-  top: 792px;
 }
 .feature-one {
   display: flex;
@@ -200,16 +156,8 @@ body {
   align-items: flex-start;
   padding: 0px;
   gap: 8px;
-
-  position: absolute;
-  width: 264px;
-  height: 104px;
-  left: 156px;
-  top: 792px;
 }
 .feature-header {
-  width: 264px;
-  height: 24px;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -221,8 +169,6 @@ body {
   flex-grow: 0;
 }
 .feature-text {
-  width: 264px;
-  height: 72px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -240,11 +186,6 @@ body {
   align-items: flex-start;
   padding: 0px;
   gap: 8px;
-  position: absolute;
-  width: 264px;
-  height: 104px;
-  left: 444px;
-  top: 792px;
 }
 .feature-three {
   display: flex;
@@ -252,11 +193,6 @@ body {
   align-items: flex-start;
   padding: 0px;
   gap: 8px;
-  position: absolute;
-  width: 264px;
-  height: 104px;
-  left: 732px;
-  top: 792px;
 }
 .feature-four {
   display: flex;
@@ -264,26 +200,11 @@ body {
   align-items: flex-start;
   padding: 0px;
   gap: 8px;
-  position: absolute;
-  width: 264px;
-  height: 104px;
-  left: 1020px;
-  top: 792px;
 }
 /* SECTION 2 */
 .section-two {
-  position: absolute;
-  width: 1128px;
-  height: 412px;
-  left: 156px;
-  top: 1016px;
 }
 .images-header {
-  position: absolute;
-  width: 323px;
-  height: 40px;
-  left: 559px;
-  top: 1016px;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -300,35 +221,18 @@ body {
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  position: absolute;
-  width: 360px;
-  height: 300px;
-  left: 156px;
-  top: 1128px;
 }
 .img-2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-
-  position: absolute;
-  width: 360px;
-  height: 300px;
-  left: 540px;
-  top: 1128px;
 }
 .img-3 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-
-  position: absolute;
-  width: 360px;
-  height: 300px;
-  left: 924px;
-  top: 1128px;
 }
 .rectangle71 {
   box-sizing: border-box;
@@ -343,19 +247,9 @@ body {
 
 /* SECTION 3 */
 .section-three {
-  position: absolute;
-  width: 1440px;
-  height: 732px;
-  left: 0px;
-  top: 1548px;
   background-color: var(--light);
 }
 .team-cards-header {
-  position: absolute;
-  width: 162px;
-  height: 40px;
-  left: 639px;
-  top: 1668px;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -374,11 +268,6 @@ body {
   align-items: center;
   padding: 0px 0px 32px;
   gap: 32px;
-  position: absolute;
-  width: 264px;
-  height: 380px;
-  left: 156px;
-  top: 1780px;
   background: var(--white-background);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -391,11 +280,6 @@ body {
   align-items: center;
   padding: 0px 0px 32px;
   gap: 32px;
-  position: absolute;
-  width: 264px;
-  height: 380px;
-  left: 444px;
-  top: 1780px;
   background: var(--white-background);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -408,11 +292,6 @@ body {
   align-items: center;
   padding: 0px 0px 32px;
   gap: 32px;
-  position: absolute;
-  width: 264px;
-  height: 380px;
-  left: 732px;
-  top: 1780px;
   background: var(--white-background);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -425,11 +304,6 @@ body {
   align-items: center;
   padding: 0px 0px 32px;
   gap: 32px;
-  position: absolute;
-  width: 264px;
-  height: 380px;
-  left: 1020px;
-  top: 1780px;
   background: var(--white-background);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -459,20 +333,9 @@ body {
 
 /* FOOTER */
 .foo {
-  position: absolute;
-  width: 1440px;
-  height: 312px;
-  left: 0px;
-  top: 2280px;
-
   background: var(--dark);
 }
 .foo-text {
-  position: absolute;
-  width: 264px;
-  height: 112px;
-  left: 156px;
-  top: 2380px;
 }
 .foo-logo {
   font-family: 'Raleway', sans-serif;
@@ -488,16 +351,8 @@ body {
   flex-direction: row;
   align-items: center;
   padding: 0px;
-  position: absolute;
-  width: 115px;
-  height: 24px;
-  left: 156px;
-  top: 2380px;
 }
 .white-word {
-  width: 71px;
-  height: 21px;
-
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 800;
@@ -514,11 +369,6 @@ body {
   flex-grow: 0;
 }
 .foo-p {
-  position: absolute;
-  width: 264px;
-  height: 72px;
-  left: 156px;
-  top: 2420px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
