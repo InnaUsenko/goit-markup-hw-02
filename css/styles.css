@@ -187,14 +187,14 @@ body {
 }
 
 /* SECTION 1 */
-.section-1 {
+.section-one {
   position: absolute;
   width: 1128px;
   height: 104px;
   left: 156px;
   top: 792px;
 }
-.feature-1 {
+.feature-one {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -234,7 +234,7 @@ body {
   flex-grow: 0;
 }
 
-.feature-2 {
+.feature-two {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -246,7 +246,7 @@ body {
   left: 444px;
   top: 792px;
 }
-.feature-3 {
+.feature-three {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -258,7 +258,7 @@ body {
   left: 732px;
   top: 792px;
 }
-.feature-4 {
+.feature-four {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -271,7 +271,7 @@ body {
   top: 792px;
 }
 /* SECTION 2 */
-.section-2 {
+.section-two {
   position: absolute;
   width: 1128px;
   height: 412px;
@@ -342,7 +342,7 @@ body {
 }
 
 /* SECTION 3 */
-.section-3 {
+.section-three {
   position: absolute;
   width: 1440px;
   height: 732px;
@@ -367,7 +367,7 @@ body {
 }
 .team-cards {
 }
-.team-card-1 {
+.team-card-one {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -384,7 +384,7 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
-.team-card-2 {
+.team-card-two {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -401,7 +401,7 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
-.team-card-3 {
+.team-card-three {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -418,7 +418,7 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
-.team-card-4 {
+.team-card-four {
   display: flex;
   flex-direction: column;
   justify-content: center;
