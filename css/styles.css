@@ -340,6 +340,7 @@ body {
   order: 0;
   flex-grow: 0;
 }
+
 /* SECTION 3 */
 .section-3 {
   position: absolute;
@@ -347,6 +348,7 @@ body {
   height: 732px;
   left: 0px;
   top: 1548px;
+  background-color: var(--light);
 }
 .team-cards-header {
   position: absolute;
@@ -357,7 +359,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -460,7 +462,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--dark);
@@ -474,7 +476,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--text);
