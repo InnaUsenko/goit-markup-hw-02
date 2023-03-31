@@ -502,11 +502,19 @@ body {
   top: 2380px;
 }
 .foo-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand);
+  text-decoration: none;
+
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0px;
-
   position: absolute;
   width: 115px;
   height: 24px;
